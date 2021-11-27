@@ -1,5 +1,12 @@
 # MineNet
+![Size](https://img.shields.io/github/repo-size/xxxtentasion-plugins/MineNet?style=for-the-badge)
+![License](https://img.shields.io/github/license/xxxtentasion-plugins/MineNet?style=for-the-badge)
+<br />
 Web map with chat and player list for your Minecraft server
+<br />
+<br />
+[Download](https://github.com/xxxtentasion-plugins/MineNet/archive/refs/heads/main.zip)
+<br />
 
 ![Screen](https://github.com/xxxtentasion-plugins/MineNet/blob/main/screenshot.png?raw=true)
 
