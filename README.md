@@ -10,6 +10,11 @@ Web map with chat and player list for your Minecraft server
 4. (Optional) Install Python (3.6.x-3.9.x) and in terminal enter `pip install flask`, so **Flask** is set globally
 5. Run server.
 
+# Customization
+To customize the map, go to the directory with the plugin, then `dependencies/unmined/Templates` and extract Web.zip. 
+<br />
+This zip contains **HTML & JS** files that you can edit.
+
 # Warning!
 - **❗❗** It requires **Windows and Python** on your computer.
 - The program require installed **Flask**. To install Flask, type `pip install flask`
