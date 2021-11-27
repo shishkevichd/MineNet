@@ -1,0 +1,322 @@
+[
+  {
+    "Id": "minecraft:ocean",
+    "DisplayName": "Ocean"
+  },
+  {
+    "Id": "minecraft:plains",
+    "DisplayName": "Plains"
+  },
+  {
+    "Id": "minecraft:desert",
+    "DisplayName": "Desert"
+  },
+  {
+    "Id": "minecraft:mountains",
+    "DisplayName": "Mountains"
+  },
+  {
+    "Id": "minecraft:forest",
+    "DisplayName": "Forest"
+  },
+  {
+    "Id": "minecraft:taiga",
+    "DisplayName": "Taiga"
+  },
+  {
+    "Id": "minecraft:swamp",
+    "DisplayName": "Swamp"
+  },
+  {
+    "Id": "minecraft:river",
+    "DisplayName": "River"
+  },
+  {
+    "Id": "minecraft:nether",
+    "DisplayName": "Nether"
+  },
+  {
+    "Id": "minecraft:the_end",
+    "DisplayName": "The End"
+  },
+  {
+    "Id": "minecraft:frozen_ocean",
+    "DisplayName": "Frozen Ocean"
+  },
+  {
+    "Id": "minecraft:frozen_river",
+    "DisplayName": "Frozen River"
+  },
+  {
+    "Id": "minecraft:snowy_tundra",
+    "DisplayName": "Snowy Tundra"
+  },
+  {
+    "Id": "minecraft:snowy_mountains",
+    "DisplayName": "Snowy Mountains"
+  },
+  {
+    "Id": "minecraft:mushroom_fields",
+    "DisplayName": "Mushroom Fields"
+  },
+  {
+    "Id": "minecraft:mushroom_field_shore",
+    "DisplayName": "Mushroom Field Shore"
+  },
+  {
+    "Id": "minecraft:beach",
+    "DisplayName": "Beach"
+  },
+  {
+    "Id": "minecraft:desert_hills",
+    "DisplayName": "Desert Hills"
+  },
+  {
+    "Id": "minecraft:wooded_hills",
+    "DisplayName": "Wooded Hills"
+  },
+  {
+    "Id": "minecraft:taiga_hills",
+    "DisplayName": "Taiga Hills"
+  },
+  {
+    "Id": "minecraft:mountain_edge",
+    "DisplayName": "Mountain Edge"
+  },
+  {
+    "Id": "minecraft:jungle",
+    "DisplayName": "Jungle"
+  },
+  {
+    "Id": "minecraft:jungle_hills",
+    "DisplayName": "Jungle Hills"
+  },
+  {
+    "Id": "minecraft:jungle_edge",
+    "DisplayName": "Jungle Edge"
+  },
+  {
+    "Id": "minecraft:deep_ocean",
+    "DisplayName": "Deep Ocean"
+  },
+  {
+    "Id": "minecraft:stone_shore",
+    "DisplayName": "Stone Shore"
+  },
+  {
+    "Id": "minecraft:snowy_beach",
+    "DisplayName": "Snowy Beach"
+  },
+  {
+    "Id": "minecraft:birch_forest",
+    "DisplayName": "Birch Forest"
+  },
+  {
+    "Id": "minecraft:birch_forest_hills",
+    "DisplayName": "Birch Forest Hills"
+  },
+  {
+    "Id": "minecraft:dark_forest",
+    "DisplayName": "Dark Forest"
+  },
+  {
+    "Id": "minecraft:snowy_taiga",
+    "DisplayName": "Snowy Taiga"
+  },
+  {
+    "Id": "minecraft:snowy_taiga_hills",
+    "DisplayName": "Snowy Taiga Hills"
+  },
+  {
+    "Id": "minecraft:giant_tree_taiga",
+    "DisplayName": "Giant Tree Taiga"
+  },
+  {
+    "Id": "minecraft:giant_tree_taiga_hills",
+    "DisplayName": "Giant Tree Taiga Hills"
+  },
+  {
+    "Id": "minecraft:wooded_mountains",
+    "DisplayName": "Wooded Mountains"
+  },
+  {
+    "Id": "minecraft:savanna",
+    "DisplayName": "Savanna"
+  },
+  {
+    "Id": "minecraft:savanna_plateau",
+    "DisplayName": "Savanna Plateau"
+  },
+  {
+    "Id": "minecraft:badlands",
+    "DisplayName": "Badlands"
+  },
+  {
+    "Id": "minecraft:wooded_badlands_plateau",
+    "DisplayName": "Wooded Badlands Plateau"
+  },
+  {
+    "Id": "minecraft:badlands_plateau",
+    "DisplayName": "Badlands Plateau"
+  },
+  {
+    "Id": "minecraft:small_end_islands",
+    "DisplayName": "Small End Islands"
+  },
+  {
+    "Id": "minecraft:end_midlands",
+    "DisplayName": "End Midlands"
+  },
+  {
+    "Id": "minecraft:end_highlands",
+    "DisplayName": "End Highlands"
+  },
+  {
+    "Id": "minecraft:end_barrens",
+    "DisplayName": "End Barrens"
+  },
+  {
+    "Id": "minecraft:warm_ocean",
+    "DisplayName": "Warm Ocean"
+  },
+  {
+    "Id": "minecraft:lukewarm_ocean",
+    "DisplayName": "Lukewarm Ocean"
+  },
+  {
+    "Id": "minecraft:cold_ocean",
+    "DisplayName": "Cold Ocean"
+  },
+  {
+    "Id": "minecraft:deep_warm_ocean",
+    "DisplayName": "Deep Warm Ocean"
+  },
+  {
+    "Id": "minecraft:deep_lukewarm_ocean",
+    "DisplayName": "Deep Lukewarm Ocean"
+  },
+  {
+    "Id": "minecraft:deep_cold_ocean",
+    "DisplayName": "Deep Cold Ocean"
+  },
+  {
+    "Id": "minecraft:deep_frozen_ocean",
+    "DisplayName": "Deep Frozen Ocean"
+  },
+  {
+    "Id": "minecraft:the_void",
+    "DisplayName": "The Void"
+  },
+  {
+    "Id": "minecraft:sunflower_plains",
+    "DisplayName": "Sunflower Plains"
+  },
+  {
+    "Id": "minecraft:desert_lakes",
+    "DisplayName": "Desert Lakes"
+  },
+  {
+    "Id": "minecraft:gravelly_mountains",
+    "DisplayName": "Gravelly Mountains"
+  },
+  {
+    "Id": "minecraft:flower_forest",
+    "DisplayName": "Flower Forest"
+  },
+  {
+    "Id": "minecraft:taiga_mountains",
+    "DisplayName": "Taiga Mountains"
+  },
+  {
+    "Id": "minecraft:swamp_hills",
+    "DisplayName": "Swamp Hills"
+  },
+  {
+    "Id": "minecraft:ice_spikes",
+    "DisplayName": "Ice Spikes"
+  },
+  {
+    "Id": "minecraft:modified_jungle",
+    "DisplayName": "Modified Jungle"
+  },
+  {
+    "Id": "minecraft:modified_jungle_edge",
+    "DisplayName": "Modified Jungle Edge"
+  },
+  {
+    "Id": "minecraft:tall_birch_forest",
+    "DisplayName": "Tall Birch Forest"
+  },
+  {
+    "Id": "minecraft:tall_birch_hills",
+    "DisplayName": "Tall Birch Hills"
+  },
+  {
+    "Id": "minecraft:dark_forest_hills",
+    "DisplayName": "Dark Forest Hills"
+  },
+  {
+    "Id": "minecraft:snowy_taiga_mountains",
+    "DisplayName": "Snowy Taiga Mountains"
+  },
+  {
+    "Id": "minecraft:giant_spruce_taiga",
+    "DisplayName": "Giant Spruce Taiga"
+  },
+  {
+    "Id": "minecraft:giant_spruce_taiga_hills",
+    "DisplayName": "Giant Spruce Taiga Hills"
+  },
+  {
+    "Id": "minecraft:modified_gravelly_mountains",
+    "DisplayName": "Gravelly Mountains+"
+  },
+  {
+    "Id": "minecraft:shattered_savanna",
+    "DisplayName": "Shattered Savanna"
+  },
+  {
+    "Id": "minecraft:shattered_savanna_plateau",
+    "DisplayName": "Shattered Savanna Plateau"
+  },
+  {
+    "Id": "minecraft:eroded_badlands",
+    "DisplayName": "Eroded Badlands"
+  },
+  {
+    "Id": "minecraft:modified_wooded_badlands_plateau",
+    "DisplayName": "Modified Wooded Badlands Plateau"
+  },
+  {
+    "Id": "minecraft:modified_badlands_plateau",
+    "DisplayName": "Modified Badlands Plateau"
+  },
+  {
+    "Id": "minecraft:bamboo_jungle",
+    "DisplayName": "Bamboo Jungle"
+  },
+  {
+    "Id": "minecraft:bamboo_jungle_hills",
+    "DisplayName": "Bamboo Jungle Hills"
+  },
+  {
+    "Id": "minecraft:soul_sand_valley",
+    "DisplayName": "Soul Sand Valley"
+  },
+  {
+    "Id": "minecraft:crimson_forest",
+    "DisplayName": "Crimson Forest"
+  },
+  {
+    "Id": "minecraft:warped_forest",
+    "DisplayName": "Warped Forest"
+  },
+  {
+    "Id": "minecraft:basalt_deltas",
+    "DisplayName": "Basalt Deltas"
+  },
+  {
+    "Id": "minecraft:dripstone_caves",
+    "DisplayName": "Dripstone caves‌"
+  }
+]
