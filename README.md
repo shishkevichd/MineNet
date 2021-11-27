@@ -10,7 +10,7 @@ Web map with chat and player list for your Minecraft server
 4. (Optional) Install Python (3.6.x-3.9.x) and in terminal enter `pip install flask`, so **Flask** is set globally
 5. Run server.
 
-# Waning
+# Warning!
 - **❗❗** It requires **Windows and Python** on your computer.
 - The program require installed **Flask**. To install Flask, type `pip install flask`
 - The program uses [**unmined-cli**](https://unmined.net/docs/cli/getting-started/), so it may be unstable.
