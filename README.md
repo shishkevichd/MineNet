@@ -5,8 +5,9 @@ Web map with chat and player list for your Minecraft server
 
 # Install
 1. Clone this git
-2. Go to Server folder/plugins and move **MineNet.js** and **dependencies** folder to **plugins** folder
-3. Run server.
+2. Go to Server folder and move **MineNet.js** and **dependencies** folder to **plugins** folder
+3. Configure the plugin. To do this, go into MineNet.js and change the line `worldName: 'Server'` to the name of your world (the name can be found by going to **worlds** folder)
+4. Run server.
 
 # Waning
 - **❗❗** It requires **Windows and Python** on your computer.
