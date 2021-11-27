@@ -1,6 +1,8 @@
 # MineNet
 Web map with chat and player list for your Minecraft server
 
+![Screen](https://github.com/xxxtentasion-plugins/MineNet/blob/main/screenshot.png?raw=true)
+
 # Install
 1. Clone this git
 2. Go to Server folder/plugins and move **MineNet.js** and **dependencies** folder to **plugins** folder
