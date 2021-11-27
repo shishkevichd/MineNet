@@ -11,12 +11,12 @@ Web map with chat and player list for your Minecraft server
 5. Run server.
 
 # Customization
-To customize the map, go to the directory with the plugin, then `dependencies/unmined/Templates` and extract Web.zip. 
+To customize the map, go to the directory with the plugin, then `dependencies/unmined/Templates` and extract **Web.zip**. 
 <br />
 This zip contains **HTML & JS** files that you can edit.
 
-# Warning!
-- **❗❗** It requires **Windows and Python** on your computer.
+# ❗❗❗ Warning!
+- It requires **Windows and Python** on your computer.
 - The program require installed **Flask**. To install Flask, type `pip install flask`
 - The program uses [**unmined-cli**](https://unmined.net/docs/cli/getting-started/), so it may be unstable.
 - The author of the plugin is not responsible for your server and the plugin
