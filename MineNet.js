@@ -4,7 +4,7 @@ var options = {
   outputName: "minenet",
   mapData: {
     zoomIn: 0,
-    zoomOut: 3,
+    zoomOut: 6,
   },
   features: {
     chat: true,
