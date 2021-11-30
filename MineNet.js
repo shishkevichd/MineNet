@@ -18,7 +18,7 @@ var options = {
 };
 
 var ServerIsStarted = false;
-var ServerAPIKey = File.readFrom(`./${options.outputName}/minenet-key.txt`)
+var ServerAPIKey;
 
 class MineMapAPI {
   static getValue(val) {
@@ -47,7 +47,7 @@ class MineMapAPI {
 
     return output;
   }
-  static sendMessage(pl, message, type="message") {
+  static sendMessage(pl, message, type = "message") {
     let json = {
       key: ServerAPIKey,
       data: {
@@ -81,7 +81,7 @@ class MineMapAPI {
   }
   static sendPlayersList(type = "list") {
     let json, players, arrayWithPlayers;
-    
+
     switch (type) {
       case "list":
         players = mc.getOnlinePlayers();
@@ -144,6 +144,9 @@ class MineMapAPI {
     if (!File.exists(`./${options.outputName}/minenet-key.txt`)) {
       let r = (Math.random() + 1).toString(16).substring(7);
       File.writeTo(`./${options.outputName}/minenet-key.txt`, data.toSHA1(r));
+      ServerAPIKey = File.readFrom(`./${options.outputName}/minenet-key.txt`);
+    } else {
+      ServerAPIKey = File.readFrom(`./${options.outputName}/minenet-key.txt`);
     }
   }
   static buildMap(first = false) {
