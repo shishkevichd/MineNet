@@ -91,13 +91,19 @@ function Unmined() {
 
         if (options.features.enablePlayerList) {
             L.easyButton('fa-users', function(){
-                $("#playerModal").modal('toggle')
+                var PlayerCanvas = document.getElementById('PlayerCanvas')
+                var PlayerCanvasObject = new bootstrap.Offcanvas(PlayerCanvas)
+
+                PlayerCanvasObject.toggle();
             }).addTo(this.leafletMap);
         }
 
         if (options.features.enableChat) {
             L.easyButton('fa-comment-alt', function(){
-                $("#chatModal").modal('toggle')
+                var ChatCanvas = document.getElementById('ChatCanvas')
+                var ChatCanvasObject = new bootstrap.Offcanvas(ChatCanvas)
+
+                ChatCanvasObject.toggle();
             }).addTo(this.leafletMap);
         }
 

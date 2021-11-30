@@ -7,8 +7,9 @@ var options = {
     zoomOut: 6,
   },
   features: {
-    chat: true,
-    playerlist: true,
+    Chat: true,
+    PlayerList: true,
+    PlayerPosition: false,
   },
   customSiteMotd: {
     enable: false,
@@ -17,6 +18,7 @@ var options = {
 };
 
 var ServerIsStarted = false;
+var ServerAPIKey = File.readFrom(`./${options.outputName}/minenet-key.txt`)
 
 class MineMapAPI {
   static getValue(val) {
@@ -45,10 +47,14 @@ class MineMapAPI {
 
     return output;
   }
-  static sendMessage(pl, message) {
+  static sendMessage(pl, message, type="message") {
     let json = {
-      player: pl.realName,
-      message: message,
+      key: ServerAPIKey,
+      data: {
+        type: type,
+        player: pl.realName,
+        message: message,
+      },
     };
     network.httpPost(
       "http://127.0.0.1:8000/server/SendMessage",
@@ -61,6 +67,7 @@ class MineMapAPI {
   }
   static sendMOTD(motd) {
     let json = {
+      key: ServerAPIKey,
       data: motd,
     };
     network.httpPost(
@@ -72,23 +79,53 @@ class MineMapAPI {
       }
     );
   }
-  static sendPlayersList() {
-    let players = mc.getOnlinePlayers();
-    let arrayWithPlayers = [];
-    players.forEach((element) => {
-      arrayWithPlayers.push({
-        name: element.realName,
-        ping: element.getDevice().avgPing,
-        maxHealth: element.maxHealth,
-        health: element.health,
-      });
-    });
+  static sendPlayersList(type = "list") {
+    let json, players, arrayWithPlayers;
+    
+    switch (type) {
+      case "list":
+        players = mc.getOnlinePlayers();
+        arrayWithPlayers = [];
+        players.forEach((element) => {
+          arrayWithPlayers.push({
+            name: element.realName,
+            ping: element.getDevice().avgPing,
+          });
+        });
 
-    let x = { result: arrayWithPlayers };
+        json = {
+          key: ServerAPIKey,
+          type: type,
+          data: arrayWithPlayers,
+        };
+        break;
+      case "position":
+        players = mc.getOnlinePlayers();
+        arrayWithPlayers = [];
+        players.forEach((element) => {
+          arrayWithPlayers.push({
+            name: element.realName,
+            pos: {
+              x: element.pos.x,
+              z: element.pos.z,
+              d: element.pos.dimid,
+            },
+          });
+        });
+
+        json = {
+          key: ServerAPIKey,
+          type: type,
+          data: arrayWithPlayers,
+        };
+        break;
+      default:
+        break;
+    }
 
     network.httpPost(
       "http://127.0.0.1:8000/server/SendPlayerList",
-      JSON.stringify(x),
+      JSON.stringify(json),
       "application/json",
       function (status, result) {
         return;
@@ -102,6 +139,12 @@ class MineMapAPI {
         return;
       }
     );
+  }
+  static createApiKey() {
+    if (!File.exists(`./${options.outputName}/minenet-key.txt`)) {
+      let r = (Math.random() + 1).toString(16).substring(7);
+      File.writeTo(`./${options.outputName}/minenet-key.txt`, data.toSHA1(r));
+    }
   }
   static buildMap(first = false) {
     system.newProcess(
@@ -130,6 +173,7 @@ class MineMapAPI {
 }
 
 if (options.enablePlugin) {
+  MineMapAPI.createApiKey();
   logger.info('Running "unmined-cli.exe". Please, wait');
   MineMapAPI.buildMap(true);
 
@@ -138,9 +182,7 @@ if (options.enablePlugin) {
     let y = MineMapAPI.ParseValue(x);
     if (!ServerIsStarted) {
       if (options.customSiteMotd.enable) {
-        MineMapAPI.sendMOTD(
-          options.customSiteMotd.motd
-        );
+        MineMapAPI.sendMOTD(options.customSiteMotd.motd);
       } else {
         MineMapAPI.sendMOTD(
           y["server-name"].replace(/\u00A7[0-9A-FK-OR]/gi, "")
@@ -149,13 +191,13 @@ if (options.enablePlugin) {
     }
   }, 1000);
 
-  if (options.features.chat) {
+  if (options.features.Chat) {
     mc.listen("onChat", function (pl, msg) {
       MineMapAPI.sendMessage(pl, msg);
     });
   }
 
-  if (options.features.playerlist) {
+  if (options.features.PlayerList) {
     setInterval(() => {
       MineMapAPI.sendPlayersList();
     }, 5000);
