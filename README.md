@@ -1,5 +1,7 @@
 # ⚠ Warning
-This project will be rewritten in C# if LiteLoader.NET is actively developed and plugins can be written on it. It is not recommended to use the current version of MineNet!
+This project will be rewritten in C# if LiteLoader.NET is actively developed and plugins can be written on it. 
+<br />
+**It is not recommended to use the current version of MineNet!**
 
 <br />
 <br />
