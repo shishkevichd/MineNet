@@ -1,3 +1,35 @@
+# ⚠ Warning
+This project will be rewritten in C# if LiteLoader.NET is actively developed and plugins can be written on it. It is not recommended to use the current version of MineNet!
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 # MineNet
 ![Size](https://img.shields.io/github/repo-size/xxxtentasion-plugins/MineNet?style=for-the-badge)
 ![License](https://img.shields.io/github/license/xxxtentasion-plugins/MineNet?style=for-the-badge)
@@ -27,7 +59,7 @@ To customize the map, go to the directory with the plugin, then `dependencies/un
 <br />
 This folder contains **HTML & JS** files that you can edit ,pack in ZIP archive with name 'Web' and move archive to **Templates** folder
 
-# ❗❗ Warning! ❗❗
+# Requirements
 - It requires **Windows and Python** on your computer.
 - The program require installed **Flask**. To install Flask, type `pip install flask`
 - The program uses [**unmined-cli**](https://unmined.net/docs/cli/getting-started/), so it may be unstable.
