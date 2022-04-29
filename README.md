@@ -33,16 +33,16 @@ This project will be rewritten in C# if LiteLoader.NET is actively developed and
 <br />
 
 # MineNet
-![Size](https://img.shields.io/github/repo-size/xxxtentasion-plugins/MineNet?style=for-the-badge)
-![License](https://img.shields.io/github/license/xxxtentasion-plugins/MineNet?style=for-the-badge)
+![Size](https://img.shields.io/github/repo-size/aye20054925/MineNet?style=for-the-badge)
+![License](https://img.shields.io/github/license/aye20054925-plugins/MineNet?style=for-the-badge)
 <br />
 Web map with chat and player list for your Minecraft server
 <br />
 <br />
-[Download](https://github.com/xxxtentasion-plugins/MineNet/archive/refs/heads/main.zip)
+[Download](https://github.com/aye20054925/MineNet/archive/refs/heads/main.zip)
 <br />
 
-![Screen](https://github.com/xxxtentasion-plugins/MineNet/blob/main/screenshot.png?raw=true)
+![Screen](https://github.com/aye20054925/MineNet/blob/main/screenshot.png?raw=true)
 
 # Install
 1. Clone this git
