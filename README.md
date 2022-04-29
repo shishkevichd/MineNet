@@ -33,9 +33,6 @@ This project will be rewritten in C# if LiteLoader.NET is actively developed and
 <br />
 
 # MineNet
-![Size](https://img.shields.io/github/repo-size/aye20054925/MineNet?style=for-the-badge)
-![License](https://img.shields.io/github/license/aye20054925-plugins/MineNet?style=for-the-badge)
-<br />
 Web map with chat and player list for your Minecraft server
 <br />
 <br />
