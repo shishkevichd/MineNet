@@ -39,7 +39,7 @@ Web map with chat and player list for your Minecraft server
 [Download](https://github.com/aye20054925/MineNet/archive/refs/heads/main.zip)
 <br />
 
-![Screen](https://github.com/aye20054925/MineNet/blob/main/screenshot.png?raw=true)
+![Screen](./screenshot.png)
 
 # Install
 1. Clone this git
